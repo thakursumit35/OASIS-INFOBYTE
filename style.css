@@ -1,0 +1,91 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	color:red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 50px;
+    
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.hero {
+	background-image: url('FashionHero.jpg');
+	background-size: cover;
+	background-position: center;
+	color:red;
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content: center;
+	height: 500px;
+}
+
+.hero h2 {
+	font-size: 20px;
+    font-style: italic;
+	margin: 0;
+	text-align: center;
+	max-width: 600px;
+    background-color:black;
+}
+
+.cta-button {
+	background-color:aliceblue;
+	border: none;
+	color: #333;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.cta-button:hover {
+	background-color: #333;
+	color: #fff
+}
+.featured-designers{
+    background-color: aquamarine;
+    color:black;
+    text-align:center;
+}
+.about{
+    background-color: azure;
+    width: 100vw;
+    height: 87vh;
+    align-items: center;
+}
+.about img{
+    width: 100vw;
+}
+.about h3{
+    text-align: center;
+    color: black;
+    font-style:italic;
+}
+.about p{
+    text-align:center;
+}
